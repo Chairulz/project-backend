@@ -16,7 +16,7 @@ steps:
       - smartphone-backend
       - --image=gcr.io/$PROJECT_ID/smartphone-backend
       - --platform=managed
-      - --region=asia-southeast2 # ganti sesuai region kamu
+      - --region=us-central1 # ganti sesuai region kamu
       - --allow-unauthenticated
       - --port=8080
 
