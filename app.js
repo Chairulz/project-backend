@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 8080;
 
 // Middleware
 app.use(cors({
-origin: "https://c-04-450706.uc.r.appspot.com",
+origin: "https://fe-static-dot-c-04-450706.uc.r.appspot.com/",
   credentials: true
 }));
 app.use(express.json());
